@@ -1,0 +1,89 @@
+print(my_data_scores[2][match_id])
+print(my_data_stats[0][ms_match_id])
+
+pd_my_data_scores['f' + str(match_id)].where(pd_my_data_scores['f' + str(match_id)] == pd_my_data_stats['f' + str(ms_match_id)][60000])
+
+
+#labels de matchscore
+
+tourney_year_id = 0
+tourney_order = 1
+tourney_slug = 2
+tourney_url_suffix = 3
+tourney_round_name = 4
+round_order = 5
+match_order = 6
+winner_name = 7
+winner_player_id = 8
+winner_slug = 9
+loser_name = 10
+loser_player_id = 11
+loser_slug = 12
+winner_seed = 13
+loser_seed = 14
+match_score_tiebreaks = 15
+winner_sets_won = 16
+loser_sets_won = 17
+winner_games_won = 18
+loser_games_won = 19
+winner_tiebreaks_won = 20
+loser_tiebreaks_won = 21
+match_id = 22
+match_stats_url_suffix = 23
+
+#labels de matchstats
+ms_tourney_order = 0
+ms_match_id = 1
+ms_match_stats_url_suffix = 2
+ms_match_time = 3
+ms_match_duration = 4
+ms_winner_aces = 5
+ms_winner_double_faults = 6
+ms_winner_first_serves_in = 7
+ms_winner_first_serves_total = 8
+ms_winner_first_serve_points_won = 9
+ms_winner_first_serve_points_total = 10
+ms_winner_second_serve_points_won = 11
+ms_winner_second_serve_points_total = 12
+ms_winner_break_points_saved = 13
+ms_winner_break_points_serve_total = 14
+ms_winner_service_points_won = 15
+ms_winner_service_points_total = 16
+ms_winner_first_serve_return_won = 17
+ms_winner_first_serve_return_total = 18
+ms_winner_second_serve_return_won = 19
+ms_winner_second_serve_return_total = 20
+ms_winner_break_points_converted = 21
+ms_winner_break_points_return_total = 22
+ms_winner_service_games_played = 23
+ms_winner_return_games_played = 24
+ms_winner_return_points_won = 25
+ms_winner_return_points_total = 26
+ms_winner_total_points_won = 27
+ms_winner_total_points_total = 28
+ms_loser_aces = 29
+ms_loser_double_faults = 30
+ms_loser_first_serves_in = 31
+ms_loser_first_serves_total = 32
+ms_loser_first_serve_points_won = 33
+ms_loser_first_serve_points_total = 34
+ms_loser_second_serve_points_won = 35
+ms_loser_second_serve_points_total = 36
+ms_loser_break_points_saved = 37
+ms_loser_break_points_serve_total = 38
+ms_loser_service_points_won = 39
+ms_loser_service_points_total = 40
+ms_loser_first_serve_return_won = 41
+ms_loser_first_serve_return_total = 42
+ms_loser_second_serve_return_won = 43
+ms_loser_second_serve_return_total = 44
+ms_loser_break_points_converted = 45
+ms_loser_break_points_return_total = 46
+ms_loser_service_games_played = 47
+ms_loser_return_games_played = 48
+ms_loser_return_points_won = 49
+ms_loser_return_points_total = 50
+ms_loser_total_points_won = 51
+ms_loser_total_points_total = 52
+
+'ms_tourney_order','ms_match_id','ms_match_stats_url_suffix','ms_match_time','ms_match_duration','ms_winner_aces','ms_winner_double_faults','ms_winner_first_serves_in','ms_winner_first_serves_total','ms_winner_first_serve_points_won','ms_winner_first_serve_points_total','ms_winner_second_serve_points_won','ms_winner_second_serve_points_total','ms_winner_break_points_saved','ms_winner_break_points_serve_total','ms_winner_service_points_won','ms_winner_service_points_total','ms_winner_first_serve_return_won','ms_winner_first_serve_return_total','ms_winner_second_serve_return_won','ms_winner_second_serve_return_total','ms_winner_break_points_converted','ms_winner_break_points_return_total','ms_winner_service_games_played','ms_winner_return_games_played','ms_winner_return_points_won','ms_winner_return_points_total','ms_winner_total_points_won','ms_winner_total_points_total','ms_loser_aces','ms_loser_double_faults','ms_loser_first_serves_in','ms_loser_first_serves_total','ms_loser_first_serve_points_won','ms_loser_first_serve_points_total','ms_loser_second_serve_points_won','ms_loser_second_serve_points_total','ms_loser_break_points_saved','ms_loser_break_points_serve_total','ms_loser_service_points_won','ms_loser_service_points_total','ms_loser_first_serve_return_won','ms_loser_first_serve_return_total','ms_loser_second_serve_return_won','ms_loser_second_serve_return_total','ms_loser_break_points_converted','ms_loser_break_points_return_total','ms_loser_service_games_played','ms_loser_return_games_played','ms_loser_return_points_won','ms_loser_return_points_total','ms_loser_total_points_won','ms_loser_total_points_total'
